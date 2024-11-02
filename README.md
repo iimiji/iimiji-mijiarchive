@@ -1,38 +1,43 @@
-### Description
+# Miji Kim's Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+A personal portfolio template for showcasing UI/UX and development projects, built with React.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+### [Live Preview](your-live-link-here)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+![Miji Portfolio]
 
 ### Features
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+- Fully Responsive Design
+- Multi-Page Layout for Project Categories (UI/UX, Development, and Others)
+- Contact Form with EmailJS Integration
+- Built with React-Bootstrap
+- Centralized Content Editing
 
 ### Setup
 
-Get the code
+Clone the repository:
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+```bash
+git clone https://github.com/yourusername/mijiarchive.git
+```
 
-<pre>yarn install</pre>
+Install required dependencies:
 
+```bash
+yarn install
+```
 
-Start the server
+Start the server:
 
-<pre>yarn start</pre>
+```bash
+yarn start
+```
 
-### More
+### Customize Content
 
-Modify pages content in  `src/content_option.js`.
+Modify the portfolio content in the `src/content_option.js` file to personalize each section, including the project categories and descriptions.
 
 ### Thanks
 
-If you like this portfolio template don't forget give it a ⭐ 
+If you found this portfolio template helpful, consider giving it a ⭐ on GitHub!
