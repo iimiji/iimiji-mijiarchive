@@ -1,157 +1,164 @@
-const logotext = "JOHN";
+const logotext = "MIJI";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Miji Kim",
+    description: "Project Manager, HCI Researcher, and UI/UX Designer with international experience and a focus on data-driven user experience improvements.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Miji Kim",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I create user-centered designs",
+        second: "I manage projects with precision",
+        third: "I research and improve UX",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "With a strong background in project management and UI/UX design, I am passionate about enhancing digital experiences through data analysis, UX research, and global strategy.",
+    //your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About Me",
+    aboutme: "I am an experienced Project Manager, HCI researcher, and UI/UX Designer with a track record in managing global projects and improving user satisfaction through data-driven strategies. My expertise includes user behavior analysis, A/B testing, and crafting tailored service strategies.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Global Operations Team Intern",
+        where: "Naver Z (ZEPETO)",
+        date: "2024.05 - 2024.08",
+        description: "Led strategy development based on data analysis and UX research, contributing to optimized user experiences for diverse international markets.",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Content Planning and Operations Intern",
+        where: "SNOW, Naver",
+        date: "2023.08 - 2024.02",
+        description: "Independently managed content strategies for VITA video editing app, contributing to UX improvements and launching popular features in the U.S.",
     },
 ];
 
-const skills = [{
-        name: "Python",
+const skills = [
+    {
+        name: "Project Management",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "UX Research",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Data Analysis",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "UI/UX Design",
+        value: 75,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Adobe Suite",
+        value: 90,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const services = [
+    {
+        title: "Project Management",
+        description: "Expert in leading cross-functional teams and executing data-driven projects that enhance user engagement and operational efficiency.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "UI/UX Design",
+        description: "Creating user-centric designs and implementing UX strategies that align with users' needs to improve product satisfaction.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "HCI Research",
+        description: "Conducting user research and experiments to uncover insights that drive better interaction design and user experience.",
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    // UI/UX Projects
+    {
+        img: require("./pages/portfolio/project/img/root/rootimg.jpg"),
+        title: "Root App",
+        description: "a family social communicating application",
+        link: "pages/portfolio/project/rootApp",
+        category: "UI/UX",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require("./pages/portfolio/project/img/snap/snapimg.jpg"),
+        title: "SNAP Redesign",
+        description: "Improved UX for VITA's Epik AI Yearbook feature, reaching over 1 million U.S. users.",
+        link: "pages/portfolio/project/snapApp",
+        category: "UI/UX",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: require("./pages/portfolio/project/img/youtube/youtubeimg.jpg"),
+        title: "Youtube Study",
+        description: "Contributed to content strategy for ZEPETO's global audience, increasing user engagement.",
         link: "#",
+        category: "UI/UX",
+    },
+    // Development Projects
+    {
+        img: "https://picsum.photos/400/700?grayscale",
+        title: "Responsive Website Development",
+        description: "Developed a responsive website for a local business, optimized for various devices.",
+        link: "#",
+        category: "Development",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/600?grayscale",
+        title: "Educational Platform Rebranding",
+        description: "Collaborated on the rebranding of an educational platform with enhanced user interface.",
         link: "#",
+        category: "Development",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/800?grayscale",
+        title: "Data-Driven Product Enhancement",
+        description: "Enhanced product features through data analysis and A/B testing.",
         link: "#",
+        category: "Development",
+    },
+    // Other Projects
+    {
+        img: "https://picsum.photos/400/300?grayscale",
+        title: "User Behavior Analysis",
+        description: "Analyzed user data to provide insights for enhancing user experience and satisfaction.",
+        link: "#",
+        category: "Other",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/550?grayscale",
+        title: "Event Planning and Management",
+        description: "Organized large-scale sale events for creator items, boosting sales with targeted strategies.",
         link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        category: "Other",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://picsum.photos/400/450?grayscale",
+        title: "Digital Marketing Campaign",
+        description: "Led a successful digital marketing campaign with a focus on performance metrics.",
         link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        category: "Other",
     },
 ];
+
+
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "mijik@sfu.ca",
+    YOUR_FONE: "+1 (236) 883-1489",
+    description: "Let's discuss any project opportunities or collaborations! I’m always open to connecting and exploring new ideas.",
+    YOUR_SERVICE_ID: "service_gvmilae",
+    YOUR_TEMPLATE_ID: "template_lsxtdme",
+    YOUR_USER_ID: "XyZqyxe65tYap90pz",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/iimiji",
+    linkedin: "https://www.linkedin.com/in/mijikim0105",
+    portfolio: "https://iimiji.github.io/",
 };
+
 export {
     meta,
     dataabout,
